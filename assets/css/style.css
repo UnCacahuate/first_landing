@@ -1,0 +1,75 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Light.otf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: montserrat-bold;
+    src: url(../fonts/Montserrat-Black.otf);
+    font-weight: bold;
+}
+
+body{
+    font-family: montserrat;
+    font-weight: bolder;
+    color: white;
+}
+
+.header{
+    height: 20em;
+    padding: 5em;
+    background-color: rgb(71, 34, 93);
+    background-image: url("../img/headerImg.png");
+    background-size: 130em;
+    background-repeat: no-repeat;
+    background-position: 40em -70em;
+}
+
+.bold{
+    font-family: montserrat-bold;
+}
+
+.header h1{
+    margin: 0%;
+    font-size: 5em;
+    font-family: montserrat-bold;
+}
+
+.header p{
+    margin-top: 0.5%;
+    font-size: 1.5em;
+}
+
+.shop{
+    width: 90%;
+    margin: auto;
+}
+
+.shop td{
+    font-size: 1.5em;
+    width: 50%;
+    padding: 1em;
+    padding-top: 4em;
+}
+
+.shop img{
+    width: 80%;
+    border: solid 2px rgb(199, 199, 199);
+    border-radius: 5%;
+}
+
+.shop p{
+    color: black;
+    margin: 0.4em;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 1px;
+    text-align: center;
+    height: 5em;
+    line-height: 3em;
+    background-color: black;
+}
